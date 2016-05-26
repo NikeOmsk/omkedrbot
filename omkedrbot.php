@@ -2,6 +2,7 @@
 /**
  * Telegram Bot access token и URL.
  */
+ 
 $access_token = '219348674:AAFmXgacsRIOsh-zJrgQA2GfN9Qal_4bkWE';
 $api = 'https://api.telegram.org/bot' . $access_token;
 
