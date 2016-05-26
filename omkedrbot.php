@@ -37,7 +37,7 @@ switch($message) {
     $preload_text = 'Одну секунду, ' . $first_name . ' ' . $emoji['preload'] . ' Я уточняю для вас погоду..';
     sendMessage($chat_id, $preload_text);
     // API key для OpenWeatherMap.
-    $apikey= 'ВАШ_API_KEY';
+    $apikey= 'a4e0ae6798df0571301c0a4bafdea1f4';
     // ID для города/района/местности (есть все города РФ).
     $id = '500776'; // Для примера: Петербург, север города.
     // Получаем JSON-ответ от OpenWeatherMap.
